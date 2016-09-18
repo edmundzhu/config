@@ -1,6 +1,6 @@
 var direct = 'DIRECT',
-    http_proxy = 'proxy localhost:8888',
-    socks = 'SOCKS5 127.0.0.1:8888',
+    http_proxy = 'proxy localhost:8086',
+    socks = 'SOCKS5 127.0.0.1:8086',
     all = direct + '; ' + socks;
 
 function FindProxyForURL(url, host) {
